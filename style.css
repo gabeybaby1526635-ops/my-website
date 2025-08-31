@@ -1,12 +1,26 @@
 /*Notes Syntax*/
 /*Actual code starts here*/
 
+/*Adds a specfic font from fonts folder (works without wifi)*/
+
+@font-face {
+    src: url(fonts/Lato-Regular.ttf);
+    font-family: lato;
+}
+
 h1 {
     color: #00f;
     font-size: 70px;
     margin: 0px;
     background-color: rgb(0, 0, 112);
     text-align: center;
+    font-weight: 1000;
+    text-decoration: underline;
+    text-indent: 0px;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    line-height: 100px;
 }
 
 h2 {
@@ -48,5 +62,52 @@ p {
 }
 
 .font {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: lato;
+}
+
+a {
+    text-decoration: none;
+}
+
+.custom {
+    width: 300px;
+    height: 200px;
+    background-color: #00f;
+}
+
+/*Custom font classes from link*/
+.comic-neue-light {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.comic-neue-regular {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.comic-neue-bold {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.comic-neue-light-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.comic-neue-regular-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.comic-neue-bold-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: italic;
 }
